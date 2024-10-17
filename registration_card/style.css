@@ -45,24 +45,24 @@ form {
 }
 
 .form-row {
-  display: flex; /* Enable flexbox for the row */
-  width: 100%; /* Full width */
-  margin-bottom: 15px; /* Space between rows */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .field {
-  flex: 1; /* Ensures fields take up equal space */
-  margin-right: 10px; /* Space between fields */
+  flex: 1;
+  margin-right: 10px;
 }
 
 .field:last-child {
-  margin-right: 0; /* Removes margin for the last field */
+  margin-right: 0;
 }
 
 label {
   margin-bottom: 5px;
   font-weight: bold;
-  display: block; /* Makes the label take a full line */
+  display: block;
 }
 
 input {
@@ -70,17 +70,17 @@ input {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 90%; /* Full width of the parent */
+  width: 90%;
 }
 
 .radio-container {
-  display: flex; /* Enable flexbox for side-by-side layout */
-  align-items: center; /* Center radio button and label vertically */
-  margin-right: 15px; /* Space between radio button containers */
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
 }
 
 .radio-container input {
-  margin-right: 5px; /* Space between radio button and label */
+  margin-right: 5px;
 }
 fieldset {
   border: none;
@@ -90,7 +90,7 @@ fieldset legend {
 }
 .form-actions {
   display: flex;
-  gap: 10px; /* Space between buttons */
+  gap: 10px;
 }
 
 .form-actions button {
